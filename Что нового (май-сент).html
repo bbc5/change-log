@@ -1,0 +1,3518 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Заголовок 1 Знак";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h2
+	{mso-style-link:"Заголовок 2 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-link:"Заголовок 3 Знак";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+address
+	{mso-style-link:"Адрес HTML Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-style:italic;}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-link:"Заголовок 1";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.3
+	{mso-style-name:"Заголовок 3 Знак";
+	mso-style-link:"Заголовок 3";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.HTML
+	{mso-style-name:"Адрес HTML Знак";
+	mso-style-link:"Адрес HTML";
+	font-family:"Times New Roman","serif";
+	font-style:italic;}
+span.2
+	{mso-style-name:"Заголовок 2 Знак";
+	mso-style-link:"Заголовок 2";
+	font-family:"Cambria","serif";
+	font-weight:bold;
+	font-style:italic;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:36.0pt 36.0pt 36.0pt 36.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<h1>Krastorio 2</h1>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 2.0.8</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 14 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены уникальные
+иконки для рецептов измельчения.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены проблемы с FPS
+у некоторых других предметов со световыми наложениями.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены размеры
+логотипа K2 для соответствия размерам логотипа базовой версии Factorio.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены визуальные
+ошибки с несколькими константами значков технологий. (#638, #655)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой рецепты плавки и крафта нельзя было выбрать
+в качестве сигналов схемы. (#657)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 2.0.7</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 11 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены базовые
+симуляции меню. Спасибо, Trex!</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Рецепты стеков факелов
+теперь сортируются в группе «жидкости» в Factoriopedia. (#569)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Обычные трубы больше не
+будут по умолчанию заменяться стальными. (#653)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Графика большого робопорта
+смещена на половину плитки к северу, чтобы лучше вписываться в область
+столкновений.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Балансировка:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Расширенный радар больше
+не будет подвергаться атакам кусаков. (#645)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;зависимость от мода Krastorio2MenuSimulations.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Восстановлена
+&#8203;&#8203;совместимость с Dectorio.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Отбойный молоток
+может добывать древесину, бетон и гравийную плитку.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Размеры стопки
+плиток K2 будут соответствовать настройкам размера стопки Dectorio.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменены внутренние
+названия остатков для соответствия базовой игре. (#641)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой электрические буры mk2 и mk3 не потребляли
+всю жидкость из своих впускных труб.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой нельзя было размещать укрытия на некоторых
+поверхностях, если индекс поверхности повторно использовался из предыдущей
+поверхности, которая содержала укрытие на момент разрушения. (#652)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой стек факелов генерировал рецепты для
+параметров горящей жидкости.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены проблемы с FPS
+при рендеринге карт технологий на конвейерах с включённой графической
+настройкой «Закрывать световые спрайты». (#596)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой все игроки отряда, кроме одного,
+становились навсегда непобедимыми после победной сцены в многопользовательском
+режиме. (#650)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой большой блок столкновений роботопорта не
+был симметричным. (#644)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено: исследование
+более мощных взрывчатых веществ не было бесконечным. (#646)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 2.0.6</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 22.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Балансировка:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- ВАЖНОЕ ИЗМЕНЕНИЕ:
+Исправлено несоответствие нескольких рецептов ранней игры их эквивалентам до
+версии 2.0:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- В рецепте сборочной
+машины заменена электронная схема на ядро &#8203;&#8203;автоматизации.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Заменена электронная
+схема на ядро &#8203;&#8203;автоматизации в рецепте химического завода.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- В рецепте
+электродрели заменена электронная схема на ядро &#8203;&#8203;автоматизации.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Удалена электронная
+схема из рецепта инсерта.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Из рецепта
+станка-качалки удалена стальная пластина.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Немного увеличена частота
+выпадения биомассы из трупов спавнеров.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Внесены подготовительные
+изменения для повторного добавления совместимости с AAI Industry. (#531, #635)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;специальная локаль для стальной пластины, чтобы переводчики могли
+исправить перевод на языках, отличных от английского. (#617)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема, из-за которой объёмы контейнеров с жидкостью
+электролизной установки были смехотворно большими. (#528)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой,
+возникающий, когда планетарный телепорт нацеливался на объект, не являющийся
+персонажем. (#559)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка запуска, когда объект, не являющийся трубой-землей, имел
+подземное соединение. (#633)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой спавнеры кусачек, добавленные другими
+модами, не оставляли биомассу. (#580, #606, #607)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отсутствие
+портативного термоядерного реактора в качестве предварительного условия для
+технологии «Паукотрон». (#591, #628)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой рецепты материи нельзя было выбрать в
+качестве сигналов схемы. (#637)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено, что для
+технологии ворот не было необходимости в обработке стали. (#630)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 2.0.5</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 28.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Стальные трубы теперь
+можно подключать к резервуарам для хранения и машинам с проходными отверстиями.
+(#546)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Балансировка:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Соотношение воды и пара в
+котле теперь составляет 1:10, чтобы соответствовать ванили. (#595, #603)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено: литий и его
+рецепт не были сгруппированы в Factoriopedia. (#585)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой для технологии усовершенствованной кирки не
+требовалась карта усовершенствованной технологии. (#586)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отсутствие
+иконок у категорий боеприпасов, добавленных в K2, в Factoriopedia. (#587)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой предметы, добавленные в K2 с ракетными
+запусками, нельзя было запустить. (#584, #605)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой рецепт «ракетного топлива из хлористого
+водорода» нельзя было выбрать в графическом интерфейсе сигналов. (#590, #594)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой у некоторых сущностей значки
+альтернативного режима были слишком большими. (#598, #599)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой биолаборатория ошибочно утверждала, что в
+один из ее портов можно подавать воду. (#600, #601)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой большой роботопорт не мог вращаться в
+чертежах. (#609)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой лазерная артиллерийская установка издавала
+громкий шум при попытке стрелять без питания. (#613, #614)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отсутствие
+слотов для мусора в сейфе и складе буфера, а также в запросчике. (#615)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой выходное отверстие для жидкости
+усовершенствованной сборочной машины было непригодно для использования. (#597,
+#611)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой не отображалась подсказка статуса
+межгалактического приемопередатчика. (#588)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой окно межгалактического приёмопередатчика
+невозможно было перетаскивать. (#588)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено смещение
+заголовка окна межгалактического приемопередатчика.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 2.0.4</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 08.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Улучшено выравнивание
+значка альтернативного режима для исследовательского компьютера космического
+корабля. (#576)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;предустановка «Вехи». (#557)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Неправильное использование
+функций стадии прототипа Krastorio теперь будет приводить к выводу сообщений
+журнала вместо возникновения ошибок скрипта.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой,
+возникавший при уничтожении планетарного телепорта при открытом его графическом
+интерфейсе.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой графический интерфейс планетарного
+телепорта отображал статус «ноль», если телепорт был помечен для демонтажа.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;отсутствующая локализация при попытке разместить объект, который
+сталкивается с планетарным телепортом.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;возможность создания бесплатных робопортов при нажатии на
+переключатель уже выбранного режима.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой проверки радиоактивности не выполнялись
+корректно, если игрок умирал или возрождался.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема, из-за которой насосные станции для минеральной воды
+испытывали трудности с заполнением резервуаров для хранения. (#571)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема, из-за которой было сложно выбирать трупы спавнеров,
+находящиеся поверх ресурсов. (#577)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено, что
+усовершенствованный танк не поддерживал логистические запросы. (#572)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены отсутствующие
+характеристики катализатора для обогащения коварекса, позволяющие получать
+огромные количества U-235. (#570)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отсутствие
+слотов для модулей в дробилке. (#566)</span></p>
+
+<div class=MsoNormal align=right style='margin-top:22.5pt;margin-right:0cm;
+margin-bottom:22.5pt;margin-left:0cm;text-align:right;line-height:normal'><span
+style='font-size:14.0pt;font-family:"Times New Roman","serif"'>
+
+<hr size=3 width=458 style='width:274.5pt' align=right>
+
+</span></div>
+
+<h1><span lang=EN-US>Krastorio 2 Spaced Out</span></h1>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия</span><span lang=EN-US
+style='font-size:14.0pt;font-family:"Times New Roman","serif"'>: 1.4.21</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата</span><span lang=EN-US
+style='font-size:14.0pt;font-family:"Times New Roman","serif"'>: 27.09.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span lang=EN-US
+style='font-size:14.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span><span
+style='font-size:14.0pt;font-family:"Times New Roman","serif"'>Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;смазка в рецепт экспресс-загрузчика.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлен рецепт
+изготовления биомассы из яиц пентапода.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Рецепт карты технологии
+«Сингулярность» был изменен.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Рецепты подземного пояса
+теперь более согласованы друг с другом</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исследование
+турботранспортного пояса теперь использует значок и называется «логистика 4».</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлено 2 слота для
+модулей в дробилку K2. Помните, что K2SO повышает требования к поверхности по
+сравнению с дробилками SA.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;вместимость ракет-маяков: теперь их 18 вместо 20.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено несколько
+рецептов, из-за которых невозможно было выбрать их в индивидуальном интерфейсе.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены опечатки в
+локали zh-CN (#70, #72)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.20</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 15 сентября 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Уран и имерсит можно
+получить на Наувисе только путём деконверсии материи.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменены иконки для
+персональных аккумуляторов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Базовый портативный
+термоядерный реактор переименован в портативный холодный термоядерный реактор.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка запуска Moshine</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.19</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 07.09.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлен альтернативный
+рецепт для электронных схем.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены превосходные
+подземные пояса, которые могли находиться под лавой и космосом.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Детали фиксированного
+инсерта переработаны в длинные инсерты</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.18</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 25.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Лаву больше нельзя
+уничтожить с помощью зарядов факелов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Для медицинских
+исследований теперь требуется карта оптимизации технологий вместо карты военных
+технологий.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Ракетная турель К2 теперь
+называется дальнобойной ракетной турелью.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Переработанные
+рельсотроны:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Увеличенная скорость
+вращения</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Базовый снаряд
+рельсотрона больше не требует расширенной схемы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Урон основного
+снаряда увеличен с 2000 до 3000.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Переименована в
+башню с лёгким рельсовым орудием.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Урон и скорость
+увеличиваются за счет исследования урона и скорости рельсотрона, вместо</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.17</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 24.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой генерировались пустые рецепты дробления для
+предметов, уже имеющих рецепт дробления.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.16</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 21.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой сочетание клавиш Ctrl + щелчок по
+качественному поглотителю энергии приводило к возврату поглотителя обычного
+качества, если в сетке оборудования уже был поглотитель энергии.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.15</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 21.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой внутри сетки оборудования можно было
+разместить несколько поглотителей энергии разного качества.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены поглотители
+энергии с качеством, отличным от нормального, которые не могли подключаться к
+башням Теслы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.14</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 19 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлено освещение для
+карточек космической эры.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Улучшены значки для данных
+исследований космической эры.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Реорганизованы рецепты
+исследовательских данных в соответствии с порядком технологических карт.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.13</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 18 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Измените размер значка
+технологии редких металлов с 256 на фактический размер спрайта 64.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.12</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 17 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Мошайн:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Объединили кремний в
+kr-кремний</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Солнечные панели
+Moshine и здания подстанций нуждаются в аналогах K2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Добавлены специальные
+модули, которые можно использовать только в лабораториях и исследовательских
+компьютерах.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой порошок имерзита перерабатывался в кристалл
+имерзита.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.11</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 14 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;поддержка симуляций меню K2, спасибо Raiguard (для правильной
+работы требуется симуляция меню Krastorio2 версии 2.0.1)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены уникальные
+иконки для рецептов дробления (из базы К2)</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Обновлен значок, название
+и описание технологии теплиц Gleba.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Рецепты стеков факелов
+теперь сортируются в группе «жидкости» в Factoriopedia (из базы K2).</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Занесенные в черный список
+расплавленные металлы из факельных труб</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Запретить переплавку
+расплавленных редких металлов в бочках</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой галактика славы не отображалась после
+активации межгалактического приемопередатчика.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены проблемы с FPS
+при рендеринге карт технологий на конвейерах с включённой графической настройкой
+«Occlude light sprites» (из базовой версии K2).</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой электрические буры mk2 и mk3 не потребляли
+всю жидкость из своих входных труб (с базы K2).</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой нельзя было размещать укрытия на некоторых
+поверхностях, если индекс поверхности повторно использовался из предыдущей
+поверхности, которая содержала укрытие на момент разрушения (из базы K2).</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.10</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 12 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- внедрены расплавленные
+редкие металлы, включая рецепты и новые технологии</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- обновлены иконки и порядок
+рецептов плавки руды</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- фиксированная
+производительность фильтрации жидкости, применяемая к воде</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- адаптировал мод для работы
+с krastorio2 assets 2.0.3 и его зависимость теперь постоянна, извините за
+неудобства</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.9</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 9 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Биолаборатория КР
+переименована в биотехнологический комплекс.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Базовый термоядерный
+реактор и его технология переименованы в «холодный термоядерный реактор».</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- вероятность получения
+электронных компонентов при переработке лома теперь составляет 4%, а не 7%, как
+раньше</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.8</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 6 августа 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены кастра и
+возраст производства, из-за которых боеприпасы нельзя было изготовить в
+сборочных машинах. На этот раз должно работать с любой комбинацией модов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.7</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 05.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Отключено условие победы
+на краю солнечной системы, используйте межгалактический приёмопередатчик для
+победы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены робопорты,
+которые сбрасывали свое качество после смены режима работы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.6</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 03.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой некоторые боеприпасы нельзя было изготовить
+в усовершенствованных сборщиках при включенном возрасте производства.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.5</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 03.08.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой Кастра и Эпоха промышленности не могли
+производить некоторые боеприпасы в Кузнице/Оружейной.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема с наукой Кастра, которая требовала урановые боеприпасы
+вместо уранового магазина винтовки. Это также должно применяться к другим
+модам.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.4</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 24 июля 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Для ракетной шахты теперь
+требуется ракетное топливо в качестве предварительного условия.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены ледяные
+образования Аквило, которые давали ванильный литий вместо лития Красторио2.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.3</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 06.07.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены иммерситовые и
+урановые боеприпасы, которые отображались в Factoriopedia при включенном
+реалистичном оружии.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой расширенный загрузчик и исследовательские
+данные имели неправильное место импорта по умолчанию.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 01.07.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлен рецепт извлечения
+биометанола из отходов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Удалена опция, требующая
+использования насосов со стальными насосами.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка при запуске с erimos prime</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.1</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 30.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Скорость снарядов значительно
+увеличена вдвое. Это также должно исправить ошибку, из-за которой башни не
+попадают в цель при более высоком качестве.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Современные химические
+заводы могут использовать рецепты фильтрации</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлено несколько
+недостающих технологических предпосылок.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.4.0</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 26.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Пересмотр науки:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Все научные пакеты
+используют значок технологических карт</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Данные планетарных
+исследований должны быть преобразованы в полезные карты данных.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;- Предупреждение: это
+нарушит ваши исследования, если вы колонизировали любую планету, но это должно
+быть легко исправить.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Уменьшена биомасса из яиц
+кусаки в 10 раз.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.13</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 26.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Используйте охлаждающую
+жидкость для повышения скорости и производительности производства
+технологических карт.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Термоядерный реактор K2
+можно размещать на космических платформах, но использовать его можно только с
+пониженным тактовым током.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Все технические карты
+соответствуют соотношению 1 техническая карта к 1 пустой карте.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен рецепт
+фторкетона, использовавший старый прототип лития.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.12</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 25.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены рецепты слияния
+предметов, которые отображались в меню крафта игрока.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.11</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 25.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено: понижение
+частоты термоядерного реактора использовало слишком много воды.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема с высокотемпературным термоядерным реактором, который
+использовал слишком мало воды.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.10</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 25.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Настройка термоядерного
+реактора</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Термоядерный реактор К2
+больше нельзя размещать на космических платформах.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Современная паровая
+турбина может использовать пар низкой температуры.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Термоядерному топливному
+элементу теперь нужен тритий</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Полезная нагрузка ракеты
+«Уран» теперь составляет 100 единиц.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- объединены ваниль и литий
+k2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.9</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 25.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Shield mk3 больше не
+требует карточек технологий производства.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Все бесконечные технологии
+требуют карту данных оптимизации без необходимости в базовых картах.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Для продуктивности
+исследований теперь требуются все карты k2.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой при запуске
+при использовании AAI Industry с AAI-дополнениями.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.8</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 24.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка при запуске с Rubia</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.7</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 24.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Все лабораторные входы
+синхронизированы, удалена зависимость от planetlib.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Щит МК3 теперь требует
+карт оптимизации и производства технологий.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой, когда
+планетарный телепорт нацеливался на объект, не являющийся персонажем.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема, из-за которой рецепты нельзя было выбирать как сигналы
+схемы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отсутствие
+портативного термоядерного реактора в качестве предварительного условия для
+технологии «Паукотрон».</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отсутствие
+обработки стали в качестве предварительного условия для технологии ворот.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.6</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 19 июня 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Размер стопки лома
+увеличен до 200.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Вместимость персонального
+робота Roboport mk2 увеличена с 25 до 50.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- мощность ракеты с
+иммерситными солнечными панелями теперь составляет 25</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменение полосы сброса устройства
+вставки теперь необязательно.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка запуска при использовании Maraxis с добывающими или
+транспортными дронами.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.5</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 14 июня 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Очищена факториопедия</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Расширенный загрузчик
+теперь переименован в турбозагрузчик и требует смазки.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Удалены недоступные
+предметы из игры</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Увеличена сетка силовой
+брони mk2 до 10x10.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Удалена настройка
+изменения цвета убежища Patreon, так как ее не существует.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;технология использования теплицы с растениями глебы, которая не
+требовала наличия продвинутых технологических карт в качестве предварительного
+условия.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.4</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 06.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменена стоимость
+рецептов литья, в основном соответствует 1 стали - 20 расплавленного чугуна.
+Литье из низкоплотных структур дешевле, поскольку обычный рецепт также дешевле.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Рецепт литья снастей
+использует иконку krastorio2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Криоустановка может
+использовать рецепты очистки топлива.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.3</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 04.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- увеличен урон от лазерного
+оружия 5 с 35% до 40% урона от лазера</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены рецепты литья
+для стальных труб и подземных стальных труб.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 03.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой переработка лома не приводила к получению
+гольмия.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Устраните ненужное
+пространство перед установкой стальной трубы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.1</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 02.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема переработки лома с помощью переработчиков, в которых
+электронные схемы почему-то не приносили пользы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.3.0</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 02.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- ВНИМАНИЕ: это обновление
+серьезно нарушит переработку металлолома на Фулгоре.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- компания Fulgora Scrap
+Recycling сократила количество электронных схем на 10%.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Значительное исправление:
+многие рецепты переработки были устаревшими или отсутствовали.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;невозможность исследования дробления при старте на Вулканусе с
+использованием любой планеты.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.7</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 01.06.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- AAI Industry — обработка
+камня теперь разделена на обработку песка и стекла. Это также должно исправить
+некоторые сбои.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Moshine - унифицированный
+песок и стекло с аналогами K2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.6</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 31.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Сжижение угля теперь
+открывает рецепт фильтрации угля.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Усовершенствованная печь:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;имеет на 2 слота для
+модулей меньше</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;использует 10 МВт
+мощности вместо 2 МВт</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;рецепт был переработан</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой электрический бур mk3 не скрывался должным
+образом.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой горнодобывающие буры и литейные цеха
+отображались в неправильном порядке в Factoriopedia.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой при
+использовании мода «Ядерная наука».</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.5</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 29.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Дополнительная
+совместимость с промышленностью AIi</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Унифицированный литий kr в
+Factoriopedia</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Центрирование значков на
+компьютере исследования космического корабля.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;невозможность вращения квадратных объектов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены отсутствующие
+категории боеприпасов в Factoriopedia.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено исследование
+производительности топливных и перерабатывающих агрегатов, которое не повлияло
+на новые рецепты.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой биолаборатория не могла принимать воду
+через один из своих входов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;лазерная артиллерия, которая шумела при низком уровне пороха.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены недостающие
+слоты для мусора в буферных и запросных сундуках.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены некоторые
+проблемы с графическим интерфейсом межгалактического приемопередатчика.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.4</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 23.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;предустановка вех для мода «Вехи».</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.3</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 23.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;совместимость с любым стартом планеты.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменен баланс лазерной
+артиллерии: теперь ее взрыв наносит электрический урон.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено исследование
+дальности артиллерии, бонус к которому применялся дважды.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 22.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой при запуске
+aii industry и bzcarbon.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены требования к
+отоплению зданий Красторио 2.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены
+специализированные рецепты преобразования материи.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.1</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 21.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Все модифицированные
+спавнеры по умолчанию сбрасывают биомассу.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменены размеры стопок
+для предметов космической эры.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Теперь можно запускать
+взрывчатку со скал на расстояние 200 за раз.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.2.0</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 20.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены рецепты
+преобразования материи для руд космической эры.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены эксклюзивные
+рецепты юмако и желеобразных орехов от Gleba в теплице.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Очиститель воздуха теперь
+может удалять споры из Глебы.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Расширенный загрузчик
+теперь должен быть создан на Vulcanus</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- соотношение воды к пару 10
+вернулось</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.6</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 19 мая 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменён значок стального
+литья на «Красторио».</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены альтернативные
+рецепты переработки, из-за которых не повышалась производительность.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.5</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 18.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлены гнезда
+спавнеров Плевальщиков, которые давали меньше биомассы, чем предполагалось.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.4</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 18.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Деревья Ашалнд теперь дают
+древесину.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Накопители энергии,
+усовершенствованная солнечная панель и маяк Сингулярности могут быть созданы в
+ЭМИ.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема, из-за которой насосные станции для минеральной воды
+испытывали трудности с заполнением резервуаров для хранения.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;проблема, из-за которой было сложно выбирать трупы спавнера,
+находящиеся поверх ресурсов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;возможность создания бесплатных робопортов при нажатии на
+переключатель уже выбранного режима.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой проверки радиоактивности не выполнялись
+корректно, если игрок умирал или возрождался.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.3</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 17.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Ракетные башни Ванила
+могут использовать ракеты К2.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменён порядок ресурсов
+при генерации карты.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Ядро ИИ, электронные
+компоненты, блок управления энергией могут быть созданы в ЭМИ</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;настройка, позволяющая включить или отключить необходимость
+подключения насосов к резервуарам для хранения на стальных трубах.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- ИЗМЕНЕНИЯ В ФИНАЛЕ ???</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 15.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Биомассу теперь можно
+производить из кусачих яиц.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Капсула Biter Virus
+Capsule теперь от gleba tech</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;— Для использования лазерной
+артиллерии теперь требуется разблокировать науку об электромагнетизме и
+артиллерии. Стоимость технологии: 750 -&gt; 2000.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Объединены технологии
+ракетных турелей и рельсовых пушек из Krastorio 2 с их аналогами из Vannila.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Уменьшен масштаб
+альтернативного режима загрузчика при рисовании одного элемента.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой переработка порошка иммерсита приводила к
+образованию кристалла иммерсита.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.1</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 14 мая 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлены рецепты создания
+остальных предметов.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Ракетная башня Кр теперь
+может стрелять обычными ракетами.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Все технологические карты
+теперь являются необходимыми исследовательскими</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Улучшенная подстанция
+может быть создана в ЭМИ</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.1.0</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 13 мая 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;совместимость с AAI Industry</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Модули качества требуют
+тех же вещей, что и другие модули</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Детали космических
+кораблей можно добывать по умолчанию.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- В лаборатории сингулярности
+гравитация должна быть равна 0, а не давлению.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Ванильная дробилка теперь
+может дробить, используя рецепты Красторио 2.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Увеличено количество
+биомассы из трупов кусачих гнёзд.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлено отключение
+загрузчиков, приводившее к сбою.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой сборочная машина Advanced не могла выводить
+жидкости.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой нажатие кнопки переименования в графическом
+интерфейсе планетарного телепорта не сохраняло новое имя.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен сбой,
+возникавший при уничтожении планетарного телепорта при открытом его графическом
+интерфейсе.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой графический интерфейс планетарного
+телепорта отображал статус «ноль», если телепорт был помечен для демонтажа.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;отсутствующая локализация при попытке разместить объект, который
+сталкивается с планетарным телепортом.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой турели невозможно было подключить к
+кольцевой сети.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.0.6</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 7 мая 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой пустые технологические карты случайно
+скрывались.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.0.5</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 7 мая 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Базовая лаборатория теперь
+принимает все научные пакеты, так как другие моды зависят от неё.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Биолаборатория теперь
+требует расширенной лаборатории</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.0.4</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 7 мая 2025 г.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;циклическая зависимость между рудами muluna и bz.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Схема AAI больше не
+нуждается в железных пластинах.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлен процесс
+коварекса, в результате которого получалось больше U-235, чем следовало.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;броня меха, не имевшая сопротивления радиоактивности.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.0.3</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 06.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Совместимость:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;совместимость с aii industry.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;скрытая необязательная зависимость для Metal и звезд.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;скрытая необязательная зависимость для луны Мулуна на Наувисе.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Исправлена
+&#8203;&#8203;ошибка, из-за которой в расширенной химической лаборатории нельзя
+было использовать рецепты взлома.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Версия: 1.0.2</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>Дата: 06.05.2025</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Функции:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Добавлена
+&#8203;&#8203;функциональность укладки предметов в загрузчики.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Изменения:</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;&nbsp;- Изменён вес некоторого
+оборудования.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:15.75pt;margin-bottom:
+9.0pt;margin-left:15.75pt;line-height:normal'><span style='font-size:14.0pt;
+font-family:"Times New Roman","serif"'>&nbsp;Исправления ошибок:</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm;
+margin-left:15.75pt;margin-right:15.75pt'>
+
+<p class=MsoNormal style='margin-bottom:9.0pt;line-height:normal;border:none;
+padding:0cm'><span style='font-size:14.0pt;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;-
+Исправлен стек факелов, создававший непригодные для использования рецепты для
+параметров.</span></p>
+
+<p class=MsoNormal style='margin-bottom:9.0pt;line-height:normal;border:none;
+padding:0cm'><span style='font-size:14.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+</div>
+
+<h1>PlanetsLib</h1>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.13.4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+28.09.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Возвращено к версии 1.13.3 из-за хрупкости.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.13.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+28.09.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен резервный вариант надежности для PlanetsLib:update() для обработки
+случаев, когда родительский объект был преобразован из космического
+местоположения в реальную планету.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.13.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+28.09.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - В
+центрифугу добавлены два дополнительных отсека для жидкости, управляемые
+настройкой.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Более
+понятное сообщение об ошибке при вызове PlanetsLib:update() с недопустимым
+родителем.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Удален
+generate-visit-planet-achievement.bat для разблокировки загрузки мод-портала.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.13.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 14
+сентября 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен прототип mod-data («Planetslib-planet-lock-rocket-silos»), который
+определяет, блокируются ли рецепты ракетных шахт в оригинальном стиле при
+размещении. Это сделано для того, чтобы моды с альтернативными рецептами
+деталей ракет могли выборочно разблокировать ракетные шахты при размещении на
+всех или на определённых поверхностях.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.13.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 13
+сентября 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;пользовательский параметр (включен по умолчанию),
+который добавляет в игру новые подсказки, раскрывающие ранее скрытую
+информацию, важную для пользователя.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Новая
+подсказка: Рассеивание тепла</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Новая
+подсказка: Сбрасывает свежесть при начале ремесла.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Новая
+подсказка: сбрасывает свежесть после завершения крафта.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Местонахождение:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновлен корейский язык (автор PolarZero)</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.12.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+08.09.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;PlanetsLib.check_global_variables, функция, запускаемая
+в начале каждого цикла данных, которая проверяет, не были ли ключевые
+глобальные переменные полностью удалены другими модами.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.12.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+23.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен скрипт для генерации графики достижения «Посетите [планету]».</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;функция PlanetsLib.visit_planet_achievement, которая
+возвращает достижение за посещение заданной планеты.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.11.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+23.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Поле
+технологии PlanetsLib_recipe_productivity_effects больше не будет добавлять
+рецепты с отключенным allow_productivity, если только
+PlanetsLib_recipe_productivity_effects.allow_recipes_without_productivity ==
+true.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.11.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 18
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;новая вспомогательная функция:
+PlanetsLib.crushing_recipe_icons.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;новая вспомогательная функция:
+PlanetsLib.asteroid_crushing_recipe_icons.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;новая вспомогательная функция:
+PlanetsLib.advanced_crushing_recipe_icon.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Жидкостный блок центрифуги и графические эффекты Cerys перенесены в PlanetsLib.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлены новые библиотечные графики: asteroid-crushing.png и
+generic-crushing.png</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.7</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 16
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен новый необязательный параметр shadow_scale(number) для
+technology_icon_moon и technology_icon_planet, который добавляет теневой слой к
+возвращаемому значку при определении.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;новая библиотечная графика: reprocessing-arrow.png</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.6</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 14
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлены новые необязательные параметры в PlanetsLib.borrow_music:
+track_types(table) и modifier_function(function), оба необязательные. Новый</span><span
+style='font-size:14.0pt;line-height:115%'> </span><span style='font-size:14.0pt;
+line-height:115%'>синтаксис</span><span lang=EN-US style='font-size:14.0pt;
+line-height:115%'>: PlanetsLib.borrow_music(source_planet, target_planet, (</span><span
+style='font-size:14.0pt;line-height:115%'>необязательные</span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%'>)
+options{track_types,modifier_function})</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.5</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+09.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлен очень редкий сбой в скриптах грузового отсека.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+09.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен новый API для управления белым списком грузовых сбрасываемых объектов
+с использованием прототипов mod-data. Старый API удалённого интерфейса
+по-прежнему поддерживается во избежание критических изменений.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: ???</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Скрипт
+генератора орбит теперь может работать как отдельная программа, которая
+обрабатывает свои собственные зависимости.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+02.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлен сбой, возникающий, когда другой мод удалял эффекты из стандартной
+технологии производительности рецептов до того, как PlanetsLib загружал свой
+этап данных.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+02.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Устранено требование наличия поля «эффекты» при использовании
+«PlanetsLib_recipe_productivity_effects» в технологии.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.10.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+02.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлено поле &quot;PlanetsLib_recipe_productivity_effects&quot; для поля
+TechnologyPrototype, которое необходимо добавить до data-final-fixes. Упрощает
+поддержку технологий повышения производительности рецептов, автоматически
+добавляя каждый рецепт, создающий определённый предмет/жидкость.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;возможность для пользователя настроить поле
+PlanetsLib_recipe_productivity_effects для соответствующих стандартных
+технологий. Включено по умолчанию, но может быть отключено при обнаружении
+проблем с совместимостью.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;начальная поддержка LDoc для подготовки PlanetsLib к
+более корректному документированию.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.9.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+02.08.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлена &#8203;&#8203;ошибка в PlanetsLib:update(), из-за которой позиции
+дочерних элементов заданной планеты не обновлялись должным образом.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+PlanetsLib:update() больше не поддерживает прием массива конфигураций, если
+длина массива не равна 1.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.8.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 28
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Ракетные шахты заблокированы после установки рецепта детали ракеты, указанного
+в PlanetsLib.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.8.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 20
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Удалён
+отладочный код, делавший «Логистический научный пакет» скрытой технологией.
+Ecksdee.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.8.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 20
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Текст
+«Несвязанные предварительные условия» перенесен в файл локали.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.8.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 20
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    — Наши
+первые настройки, доступные для игроков: «Предупреждать о скрытых
+предварительных требованиях» и «Отключить скрытые предварительные требования».
+Они предотвращают появление неисследуемых технологий из-за проблем
+совместимости.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.7.1-1.7.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 20
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Чтобы
+игроки могли сохранять свои уровни фиксированными и при этом иметь возможность
+обновлять PlanetsLib, уровни были перенесены в новый мод: PlanetsLib: Tiers</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    - Теперь
+вы можете получить доступ к их значениям, используя `local tier =
+data.raw[&quot;mod-data&quot;][&quot;PlanetsLib-tierlist&quot;].data[type][name]
+или
+data.raw[&quot;mod-data&quot;][&quot;PlanetsLib-tierlist&quot;].data.default`.
+(API get_planet_tier и get_space_location_tier теперь недокументированы, но всё
+ещё существуют для обратной совместимости.)</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Информация:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновление журнала изменений.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.7.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 15
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен унифицированный интерфейс, позволяющий планетам определять рецепты
+ракетных шахт для каждой поверхности.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.6.4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 10
+июля 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлен возможный сбой в удаленном интерфейсе грузового отсека.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Местонахождение:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен перевод на немецкий язык.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновление скрипта генератора орбит для поддержки допустимых спрайтов для
+больших радиусов орбит.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.6.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+29.06.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Уровни: Звёздные врата от Металла и Звезд до уровня 4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.6.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 16
+июня 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлен сбой при добавлении предмета в белый список грузовых перевозок для
+определенной планеты.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.6.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 12
+июня 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлены уровни для Яхтры и Парацельсина.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.6.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 11
+июня 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Свойство «tier» перенесено из Organized Solar System в PlanetsLib, что
+позволяет другим авторам использовать его. tier — это номер, присваиваемый
+каждой планете и указывающий на её вероятное место в игровом процессе Space
+Age.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Уровень Рубии установлен на 4,5.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.5.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+02.06.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновлен русский перевод.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.5.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+25.05.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлены записи локали для сброса грузов, чтобы удалить ссылку на
+строительных роботов.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.5.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+21.05.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Устаревшие неявные API planetslib_sort_sciences и
+planetslib_ensure_all_packs_from_vanilla_lab в пользу
+PlanetsLib.sort_science_pack_names и
+PlanetsLib.add_science_packs_from_vanilla_lab_to_technology.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+PlanetsLib больше не изменяет технологии promethium-science-pack и
+research-productivity, добавляя к ним пакеты из стандартных лабораторий.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.4.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+15.05.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Поверхностные условия «Кислород», «Азот», «Углекислый газ» и «Аргон»
+переименованы в «Атмосферный кислород», «Атмосферный азот», «Атмосферный углекислый
+газ» и «Атмосферный аргон».</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.4.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 13 мая
+2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлено утверждение безопасности в get_child_technologies.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.4.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 12 мая
+2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Строительные роботы больше не попадают в белый список для сброса грузов по
+умолчанию.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Модераторам предоставлен удаленный интерфейс для внесения в белый список
+сбрасываемых грузов.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.4.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 12 мая
+2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+PlanetsLib больше не имеет Space Age в качестве обязательной зависимости.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+1.3.8</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+11.05.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%'>   
+- </span><span style='font-size:14.0pt;line-height:115%'>Новый</span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%'> API:
+get_child_technologies.</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;padding:0cm'><span style='font-size:14.0pt;
+line-height:115%'>&nbsp;</span></p>
+
+</div>
+
+<h1>Krastorio 2 Menu Simulations</h1>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+2.0.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 15
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлено, что для моделирования меню требовалась экспериментальная версия
+Factorio.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+2.0.1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 14
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Оптимизации:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Удалены предварительные изображения из файлов симуляции.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлена &#8203;&#8203;ошибка, из-за которой симуляция лаборатории
+сингулярности не была отцентрирована по горизонтали.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлена &#8203;&#8203;ошибка, из-за которой симуляция ядерного поезда
+внезапно обрывалась.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Совместимость:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Включить симуляцию меню при игре в Krastorio 2 Spaced Out. (!1)</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+2.0.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 11
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Первоначальный выпуск.</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;padding:0cm'><span style='font-size:14.0pt;
+line-height:115%'>&nbsp;</span></p>
+
+</div>
+
+<h1>Krastorio 2 Assets</h1>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+2.0.3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата: 11
+августа 2025 г.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен значок сокрушительного наложения.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлена &#8203;&#8203;визуализация радиуса ветряной турбины.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Изменения:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Переименованы и сглажены остаточные активы.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+2.0.2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+28.05.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Функции:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлены спрайты для категорий боеприпасов, добавленных в K2. (#7)</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;padding:0cm'><span style='font-size:14.0pt;
+line-height:115%'>&nbsp;</span></p>
+
+</div>
+
+<h1>Jetpack</h1>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+0.4.13</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+23.09.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлено сплющивание значков технологий.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлена &#8203;&#8203;ошибка, из-за которой 3 вида топлива Krastorio 2
+больше не распознавались.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+0.4.12</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+30.06.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Исправления ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Исправлен сбой при попытке использовать реактивный ранец, находясь в
+транспортном средстве.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Версия:
+0.4.11</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Дата:
+24.06.2025</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>  Исправления
+ошибок:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Уровень масштабирования теперь сохраняется при переключении реактивного ранца.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'> 
+Местонахождение:</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Добавлен перевод на традиционный китайский язык (благодаря Кэссиди).</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновлен перевод на упрощенный китайский язык, спасибо tanvec.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновлен турецкий перевод, спасибо UberReis.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>    -
+Обновлен украинский перевод, спасибо GraMitrey.</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;padding:0cm'><span style='font-size:14.0pt;
+line-height:115%'>&nbsp;</span></p>
+
+</div>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
